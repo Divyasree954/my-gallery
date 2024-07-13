@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Photo Gallery</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        .navbar{
+            background-color: lightgoldenrodyellow;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 4px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar ul li{
+            list-style: none;
+            float: left;
+            margin: 10px 8px;
+            padding: 8px;
+        }
+        .navbar ul li a{
+            margin: 10px;
+            padding: 250px;
+            color:black;
+        }
+        .gallery{
+           justify-content: center;
+           display:inline-block;
+           display: flex;
+           align-items: center;
+          flex-wrap: wrap;
+          cursor: pointer;
+          transition: 3s;
+        }
+         div img{
+            height: 500px;
+            width: 400px;
+             border: 2px solid black; 
+             border-radius: 13px;
+             box-shadow: 4px 7px 7px 0px black;
+             cursor: pointer;
+         }
+         h2,p{
+            padding-top: 30px;
+         }
+         p{
+            font-size: 20px;
+         }
+         .fig:hover{
+            transform: scale(1.2);
+            z-index: 2;
+
+         }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Home"><b>Home</b></a></li>
+            <li><a href="#Description"><b>Description</b></a></li>
+        </ul>
+      </nav>
+    <center>
+    <h1 id="Home"><u> MY PHOTO GALLERY</u></h1>
+    <h2 id="Description">DESCRIPTION</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet totam, maxime corrupti eius facilis veniam incidunt laborum quasi ad! Sint, iure incidunt ducimus praesentium placeat doloribus laboriosam accusamus. Nostrum ipsam cum atque mollitia temporibus minima aut in, reprehenderit corporis totam, voluptatem fugit voluptas pariatur iusto? Odit magnam consequuntur, quos dicta totam unde consectetur sunt accusantium neque et dolor iusto velit aliquam ipsum molestiae modi voluptatum esse, necessitatibus ducimus quasi, non libero corporis voluptatem tempore! Magnam a, omnis nostrum deleniti numquam voluptas, maxime odio optio porro quam totam repellendus. Debitis repellat ipsam molestiae! At debitis facere molestiae. Temporibus voluptate quidem illo.</p>
+    <div class="gallery">
+     <figure class="fig">
+    <img src="https://i.pinimg.com/originals/d2/6a/9b/d26a9b53d288e33fe78944b15f15fd5d.jpg">
+    <figcaption><h2>Beautiful Sky</h2></figcaption>
+    </figure>
+    <figure class="fig">
+    <img src="https://i.pinimg.com/736x/99/bb/91/99bb91d5e568c48fb0d0c8f92e362226.jpg">
+    <figcaption><h2>Spot Sunlight</h2></figcaption>
+    </figure>
+    <figure class="fig">
+    <img src="https://images.pexels.com/photos/931007/pexels-photo-931007.jpeg?auto=compress&cs=tinysrgb&w=600" >
+    <figcaption><h2>Waterfalls</h2></figcaption>
+    </figure>
+    <figure class="fig">
+    <img src="https://images.pexels.com/photos/600114/pexels-photo-600114.jpeg?auto=compress&cs=tinysrgb&w=600"alt="">
+    <figcaption><h2>Paper flowers in sunlight</h2></figcaption>
+    </figure>
+    <figure class="fig">
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+    <figcaption><h2>Graceful Night</h2></figcaption>
+    </figure>
+    <figure class="fig">
+    <img src="https://images.pexels.com/photos/4482677/pexels-photo-4482677.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+    <figcaption><h2>Yellow rose Flowers</h2></figcaption>
+    </figure>
+</html>
+   </center>
+</div>
+</body>
+
+</html>
+   
